@@ -34,3 +34,15 @@ const pureString = "Anfal";
 const pureStrReversed = pureString.split('').reverse().join('');
 
 console.log(pureStrReversed);
+
+//reverse integer 
+
+const number = 23456546;
+const number2 = -2423435;
+
+function reverseInteger(num){
+        return parseInt(num.toString().split('').reverse().join(''))*Math.sign(num);
+}
+
+console.log(reverseInteger(number));
+console.log(reverseInteger(number2));
