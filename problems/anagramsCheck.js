@@ -39,3 +39,6 @@ function anagramsCheck(strOne, StrTwo){
 const checkedWord = anagramsCheck('aab','abb');
 
 console.log(checkedWord);
+
+
+//test
